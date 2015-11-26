@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="30388" started-at="2015-11-26T12:02:21Z" finished-at="2015-11-26T12:02:51Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="30388" started-at="2015-11-26T12:02:21Z" finished-at="2015-11-26T12:02:51Z">
+      <class name="testsuite.Testcases">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testsuite.Testcases@185fac52]" name="setup" is-config="true" duration-ms="5410" started-at="2015-11-26T17:32:21Z" finished-at="2015-11-26T17:32:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:testsuite.Testcases@185fac52]" name="verifyLogin" duration-ms="20472" started-at="2015-11-26T17:32:26Z" finished-at="2015-11-26T17:32:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="verifyLogout()[pri:0, instance:testsuite.Testcases@185fac52]" name="verifyLogout" duration-ms="3765" started-at="2015-11-26T17:32:47Z" depends-on-methods="testsuite.Testcases.verifyLogin" finished-at="2015-11-26T17:32:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testsuite.Testcases@185fac52]" name="tearDown" is-config="true" duration-ms="713" started-at="2015-11-26T17:32:51Z" finished-at="2015-11-26T17:32:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testsuite.Testcases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
